@@ -12,7 +12,7 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            "## Testing Values
+            ## Testing Values
             
             - [ ] Support activity and quality
               - Approved/Rejected by: @
@@ -31,5 +31,5 @@ jobs:
             - [ ] Modlist Description/Elevator Pitch
               - Approved/Rejected by: @
             - [ ] Modlist location in the Find a List system
-              - Approved/Rejected by: @"
+              - Approved/Rejected by: @
 
