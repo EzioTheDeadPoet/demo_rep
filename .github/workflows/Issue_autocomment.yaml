@@ -1,3 +1,4 @@
+name: AutoComment
 on:
   issues:
     types: [opened]
