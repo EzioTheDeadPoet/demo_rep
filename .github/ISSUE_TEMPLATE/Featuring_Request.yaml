@@ -25,7 +25,6 @@ body:
       label: How is your List Called ?
       description: Provide the name of your list.
       placeholder: Best List
-      value: 
     validations:
       required: true
   - type: input
@@ -33,8 +32,6 @@ body:
     attributes:
       label: Where do you offer support for your list ?
       description: Provide the link to the Discord Support Server for your list.
-      placeholder: 
-      value:
     validations:
       required: true
   - type: input
@@ -42,8 +39,6 @@ body:
     attributes:
       label: How long is your list out there ?
       description: This is required so we can compare and judge the existing support over time. 
-      placeholder: 
-      value: 
     validations:
       required: true
     - type: checkboxes
