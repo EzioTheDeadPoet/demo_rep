@@ -45,3 +45,13 @@ body:
       value: 
     validations:
       required: true
+    - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreements
+      description: By submitting this request, you agree to the following.
+      options:
+        - label: "The work submitted in this request is my own, and in my branding and doesn't infringe on existing Intelectual Property or Brands."
+          required: true
+        - label: I agree to fully open, honest and possibly critical examination and discussion of my here submitted work.
+          required: true
