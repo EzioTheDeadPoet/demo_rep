@@ -35,6 +35,13 @@ body:
     validations:
       required: true
   - type: input
+    id: loadorderlibrary
+    attributes:
+      label: Please link a [LoadOrder Library](https://loadorderlibrary.com/) upload if your game supports it
+      description: Please use [LoadOrder Library](https://loadorderlibrary.com/) to provide a loadorder of your list if your game is supported on the site
+    validations:
+      required: false
+  - type: input
     id: target
     attributes:
       label: How long is your list out there ?
