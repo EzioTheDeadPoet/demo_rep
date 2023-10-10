@@ -34,6 +34,7 @@ body:
       label: Where do you offer support for your list ?
       description: Provide the link to the Discord Support Server for your list.
       placeholder: 
+      value:
     validations:
       required: true
   - type: input
