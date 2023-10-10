@@ -1,35 +1,47 @@
-name: 404 Page Not Found Report
-description: Report a 404 Page Not Found Error
-title: "Not found Report Issue"
+name: Request Featured Status
+description: Issue Template for getting your list featured.
+title: "Featured Status Request [List Name]"
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report the issue!
-  - type: textarea
-    id: origin_link
+        This is the starting point for the process to get your list in the featured category. So please make sure that all the information you enter below is correct and that your list fits the quality standards.
+  - type: dropdown
+    id: game
     attributes:
-      label: From what page did you get linked to the 404 ?
-      description: Please post the link to the page where you were linked to the not found page.
-      placeholder: https://www.bad-link-in-wiki-does-not-work.org/
+      label: What game is your list for ?
+      description: Please 
+      options:
+        - Skyrim Special Edition
+        - Skyrim Legendary Editon
+        - Fallout 4
+        - Other (Will be expanded to the full list)
+    validations:
+      required: true
+  - type: input
+    id: list_name
+    attributes:
+      label: How is your List Called ?
+      description: Provide the name of your list.
+      placeholder: Best List
       value: 
     validations:
       required: true
-  - type: textarea
-    id: origin_chapter
+  - type: input
+    id: support_server
     attributes:
-      label: If it was in the Wiki, where on the page did you get linked to the error ?
-      description: Please describe the position good enough, so that we can find the link and fix it.
-      placeholder: 'The link can be found when seaching for the word "foo".'
+      label: Where do you offer support for your list ?
+      description: Provide the link to the Discord Support Server for your list.
+      placeholder: 
     validations:
-      required: false
+      required: true
   - type: textarea
     id: target
     attributes:
-      label: Please post the link that showed you the 404 Error
-      description: This is required so we can add automated redirects to either the main page or the intended section.
-      placeholder: https://www.bad-link-does-not-work.org/
+      label: How long is your list out there ?
+      description: This is required so we can compare and judge the existing support over time. 
+      placeholder: 
       value: 
     validations:
       required: true
