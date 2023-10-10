@@ -1,0 +1,12 @@
+on:
+  issues:
+    types: [opened]
+jobs:
+  featured_criteria_comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body-path: 'comment-body.md'
