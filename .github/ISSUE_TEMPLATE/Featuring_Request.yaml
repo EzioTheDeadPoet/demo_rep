@@ -41,7 +41,7 @@ body:
       description: Please use [LoadOrder Library](https://loadorderlibrary.com/) to provide a loadorder of your list if your game is supported on the site.
     validations:
       required: false
-   - type: input
+  - type: input
     id: image
     attributes:
       label: Provide a WebP image for your modlist thumbnail for use in the "Find a List" tools and website promotion.
