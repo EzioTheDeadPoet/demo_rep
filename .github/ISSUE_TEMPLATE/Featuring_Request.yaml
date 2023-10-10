@@ -1,7 +1,7 @@
 name: Request Featured Status
 description: Issue Template for getting your list featured.
 title: "Featured Status Request [List Name]"
-labels: ["Type: Featured Request","in-progress"]
+labels: ["Featured Request","in-progress"]
 body:
   - type: markdown
     attributes:
