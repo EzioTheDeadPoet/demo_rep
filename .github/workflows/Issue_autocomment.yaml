@@ -10,4 +10,4 @@ jobs:
         uses: peter-evans/create-or-update-comment@v3
         with:
           issue-number: ${{ github.event.issue.number }}
-          body-path: '.github/comment-body.md'
+          body-path: .github/comment-body.md
