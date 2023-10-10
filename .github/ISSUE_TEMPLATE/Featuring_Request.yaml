@@ -37,12 +37,19 @@ body:
   - type: input
     id: loadorderlibrary
     attributes:
-      label: Please link a [LoadOrder Library](https://loadorderlibrary.com/) upload if your game supports it
-      description: Please use [LoadOrder Library](https://loadorderlibrary.com/) to provide a loadorder of your list if your game is supported on the site
+      label: Link a LoadOrder Library upload if your game is supported on the site.
+      description: Please use [LoadOrder Library](https://loadorderlibrary.com/) to provide a loadorder of your list if your game is supported on the site.
     validations:
       required: false
+   - type: input
+    id: image
+    attributes:
+      label: Provide a WebP image for your modlist thumbnail for use in the "Find a List" tools and website promotion.
+      description: "Ideally a 16:9 aspect ratio and a resolution of 1920x1080."
+    validations:
+      required: true
   - type: input
-    id: target
+    id: lifetime
     attributes:
       label: How long is your list out there ?
       description: This is required so we can compare and judge the existing support over time. 
