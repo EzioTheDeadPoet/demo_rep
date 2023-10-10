@@ -41,7 +41,7 @@ body:
       description: This is required so we can compare and judge the existing support over time. 
     validations:
       required: true
-    - type: checkboxes
+  - type: checkboxes
     id: terms
     attributes:
       label: Agreements
