@@ -24,6 +24,7 @@ jobs:
               - Approved/Rejected by: @
             - [ ] No frequent crashes or repeatable bugs
               - Approved/Rejected by: @
+            
             ## Important Meta Data
             
             - [ ] Modlist Image as WEBP
@@ -31,5 +32,7 @@ jobs:
             - [ ] Modlist Description/Elevator Pitch
               - Approved/Rejected by: @
             - [ ] Modlist location in the Find a List system
+              - Approved/Rejected by: @
+            - [ ] Link to LoadOrder Library page for the List
               - Approved/Rejected by: @
 
