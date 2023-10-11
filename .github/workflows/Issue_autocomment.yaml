@@ -5,6 +5,7 @@ on:
 jobs:
   featured_criteria_comment:
     runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'Featured Request')
     steps:
       - name: Create comment
         uses: peter-evans/create-or-update-comment@v3
