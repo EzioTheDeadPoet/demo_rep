@@ -42,9 +42,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: find a modlist
+    id: find_a_modlist
     attributes:
-      label: find_a_modlist
+      label: Find A Modlist Assets and Meta Information
       description: |
         We use multiple things to promote lists to users who are unsure of which modlist to play. Please say where your list will fit in the  following:
         
