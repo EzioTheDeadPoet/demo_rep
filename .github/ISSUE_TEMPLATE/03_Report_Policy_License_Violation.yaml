@@ -1,5 +1,5 @@
-name: Report A Featured Modlist
-description: This is if you want to report a **FEATURED** Modlist, that is not upholding the requirements anymore.
+name: Report A Policy or License Violation
+description: This is if you want to report a someone violating Wabbajack Policies or The Wabbajack License.
 title: "Report for [List Name]"
 labels: ["Policy or License Violation","in-progress"]
 body:
