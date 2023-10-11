@@ -9,7 +9,7 @@ body:
       value: |
         ## IMPORTANT NOTICE
         
-        This report From is reseved for **serious** negligence by a modlist author of the requirements we set for featured lists and need to be seriously reviewed.
+        This report From is reseved for **serious** negligence by a modlist author of the requirements we set for featured lists and need to be seriously reviewed. <Link to Featured Criteria and required standards>
         Because of that we require every report to feature strong proof of any accusation and reserve the right to ban people from accessing this service.  
         The following are examples of things that can potentially get you banned:
 
@@ -21,8 +21,8 @@ body:
         - You don't like the rules of some of the support servers
           - This is not the place for ban appeals either if you were banned from a server  
 
-        *¹ Timely in this context can and will be judged on a case by case basis under the consideration, that **ALL** of this is unpaid **VOLUNTEER** work where everyones real lives take priority 
-        and that temporary work arounds are considered under this criteria as "fixes" to an issue, within reason.*
+        *¹ Timely in this context can and will be judged on a case by case basis, under the consideration that **ALL** of this is unpaid **VOLUNTEER** work. Authors real lives take priority 
+        and that temporary work arounds are considered under this criteria as "fixes" to an issue, within reason.
 
   - type: input
     id: list_name
