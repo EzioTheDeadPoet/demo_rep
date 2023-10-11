@@ -19,7 +19,9 @@ body:
         - You don't like the rules of some of the support servers
           - This is not the place for ban appeals either if you were banned from a server
 
-        **Biggest Example of what can and should be reported are any paywalls to get modlist access, this includes temporary ones.**
+        **The biggest examples of what can and should be reported are:** 
+          - Any paywalled access to modlists, this includes temporary ones.
+          - Illegal distribution of assets, either from mods or other sources.
 
   - type: input
     id: list_name
