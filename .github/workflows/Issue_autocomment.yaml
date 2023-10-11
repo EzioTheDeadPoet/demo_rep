@@ -4,10 +4,11 @@ on:
     types: [opened]
 jobs:
   featured_criteria_comment:
+    name: Comment Request Response Summary Template
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'Featured Request')
     steps:
-      - name: Create comment
+      - name: Post Comment
         uses: peter-evans/create-or-update-comment@v3
         with:
           issue-number: ${{ github.event.issue.number }}
@@ -41,10 +42,11 @@ jobs:
             
             **This comment template will be updated over time by the team as a universal collection of all reviewed criteria and is the binding response to the request.**
   report_check_comment:
+    name: Comment Report Validation Response Template
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'Modlist Report')
     steps:
-      - name: Create comment
+      - name: Post Comment
         uses: peter-evans/create-or-update-comment@v3
         with:
           issue-number: ${{ github.event.issue.number }}
