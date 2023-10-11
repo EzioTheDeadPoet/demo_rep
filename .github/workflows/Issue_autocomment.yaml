@@ -36,4 +36,30 @@ jobs:
               - Approved/Rejected by: @
             - [ ] Link to LoadOrder Library page for the List
               - Approved/Rejected by: @
+            
+            ---
+            
+            **This comment template will be updated over time by the team as a universal collection of all reviewed criteria and is the binding response to the request.**
+  report_check_comment:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'Modlist Report')
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ## Report Status
 
+            - [ ] Report Investigated
+              - Investigated by @
+              
+            ### Report Acceped/Rejected
+            Reason:
+
+            ### Additional Comments by report reviewers or links to list author responses
+
+            ---
+            
+            **This comment template will be updated after a review of the report and is the binding response to it.**
