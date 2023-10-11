@@ -22,7 +22,7 @@ body:
   - type: input
     id: list_name
     attributes:
-      label: How is your List Called ?
+      label: What is your List Called ?
       description: Provide the name of your list.
       placeholder: Best List
     validations:
@@ -51,7 +51,7 @@ body:
   - type: input
     id: lifetime
     attributes:
-      label: How long is your list out there ?
+      label: When did you release the list?
       description: This is required so we can compare and judge the existing support over time. 
     validations:
       required: true
