@@ -35,12 +35,31 @@ body:
     validations:
       required: true
   - type: input
-    id: loadorderlibrary
+    id: readme
     attributes:
-      label: Link a LoadOrder Library upload if your game is supported on the site.
-      description: Please use [LoadOrder Library](https://loadorderlibrary.com/) to provide a loadorder of your list if your game is supported on the site.
+      label: Link to Readme / Documentation
+      description: Please provide a link to your user documentation.
     validations:
-      required: false
+      required: true
+  - type: textarea
+    id: find a modlist
+    attributes:
+      label: find_a_modlist
+      description: |
+        We use multiple things to promote lists to users who are unsure of which modlist to play. Please say where your list will fit in the  following:
+        
+        - https://github.com/wabbajack-tools/mod-lists/blob/master/modlist-descriptions.md
+        - https://wizard.wabbajack.org/
+        - https://tinyurl.com/mrkbfzwe
+        
+        Additionally, please provide the following information:
+        1- link to banner image:
+        2- list name and author:
+        3- Find out more link:
+        4- Does the game require anything more than the base game? If yes, what does it require (any specific DLCs that are not included in the base game or the Anniversary Edition DLC count)
+        5- Where it fits in the chart/wizard and the differences between similar lists. Refer to the existing resources for an idea of what we are looking for.
+    validations:
+      required: true
   - type: input
     id: image
     attributes:
