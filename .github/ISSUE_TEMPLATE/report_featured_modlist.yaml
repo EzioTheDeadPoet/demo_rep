@@ -63,5 +63,5 @@ body:
           required: true
         - label: I **DID NOT** modify the list.
           required: true
-        - label: I have read the provided Documentation(Readme, Website, Wiki) and pinned posts on the support servers, before making this report.
+        - label: I have read all the Documentation (Readme, Website, Wiki, pinned posts on the support servers) before making this report.
           required: true
