@@ -7,7 +7,6 @@ body:
     id: notice
     attributes:
       value: |
-        "
         ## IMPORTANT NOTICE
         
         This report From is reseved for **serious** negligence by an modlist author of the requirements we set for featured lists and need to be seriously reviewed.
@@ -24,7 +23,7 @@ body:
 
         - ¹ Timely in this context can and will be judged on a case by case basis under the consideration, that **ALL** of this is unpaid **VOLUNTEER** work where everyones real lives take priority 
         and that temporary work arounds are considered under this criteria as "fixes" to an issue, within reason.
-        "
+
   - type: input
     id: list_name
     attributes:
